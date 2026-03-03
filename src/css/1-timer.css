@@ -1,0 +1,71 @@
+.timer-picker {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+input#datetime-picker {
+    padding: 8px 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 272px;
+    color: #2E2F42;
+    border: 1px solid #808080;
+    background-color: white;
+}
+
+button {
+    width: 75px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    border: none;
+    background-color: #4E75FF;
+    color: white;
+    cursor: pointer;
+
+}
+
+button[data-start]:disabled {
+    color: #808080;
+    background-color: #CFCFCF;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: calc(40px * 0.04);
+}
+
+.label {
+    line-height: 48px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: calc(16px * 0.04);
+}
